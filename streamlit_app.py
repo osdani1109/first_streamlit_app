@@ -4,7 +4,7 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-st.stop()
+#st.stop()
 st.title("breakfast favaourites")
 st.text("🥣omega 3 & blueberry oatmeal") 
 st.text("🥗kale. spinach & rocket smothie")
