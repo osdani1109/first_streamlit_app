@@ -48,7 +48,7 @@ if st.button('get fruit load list'):
     st.dataframe(my_data_row)
 def insert_row_snowflake(new_fruit):
     with my_cnx.cursor() as my_cur:
-        my_cur.execute("INSERT INTO FRUIT_LOAD_LIST VALUES ('from stramlit')")
+        my_cur.execute("INSERT INTO FRUIT_LOAD_LIST VALUES ('"+new_fruit+"')")
         return "Thanks for adding "+new_fruit
 
 
